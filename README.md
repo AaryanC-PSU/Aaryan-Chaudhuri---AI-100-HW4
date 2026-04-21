@@ -1,6 +1,14 @@
 # OpenAI Terminal Chat
 
-This project is a terminal-based Python chat app that connects to the OpenAI API. Users can type prompts, receive AI responses, keep a conversation history, switch models during a session, and save the chat transcript.
+For this homework project, I built a terminal-based Python chat app that connects to the OpenAI API. The user can type prompts into the terminal, send them to the AI model, and read the responses directly in the command line. The program keeps running until the user types `exit` or `quit`.
+
+I also added a few extra features beyond the basic requirements, including conversation history, a help menu, model switching, and the ability to save a transcript of the chat.
+
+## My Approach
+
+My intended approach was to start with the main homework requirement first: create a simple terminal loop where the user enters a prompt, the app sends it to OpenAI, and the response prints back in the terminal. After that worked, I organized the code into separate functions so it would be easier to read and maintain.
+
+I used a `.env` file so the API key is not hardcoded into the program. I also added error handling so the program gives a clear message if the API key is missing or if the API request fails. Once the basic version was complete, I added commands like `help`, `history`, `clear`, `save`, and `model` to make the project more useful and complete.
 
 ## Features
 
