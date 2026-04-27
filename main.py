@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 
-DEFAULT_MODEL = "gpt-4o-mini"
+DEFAULT_MODEL = "gpt-5"
 TRANSCRIPT_FILE = "chat_history.txt"
 SYSTEM_MESSAGE = (
     "You are a helpful AI assistant. Keep answers clear, useful, and concise."
